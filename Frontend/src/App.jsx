@@ -3,12 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+import Navbar from './components/navbar'
+import Hero from './components/hero'
 
 function App() {
   return (
-    <div className="h-screen flex items-center justify-center bg-black text-white">
-      <h1 className="text-4xl font-bold">Tailwind Working 🚀</h1>
-    </div>
+    <>
+   <Navbar/>
+   <Hero/>
+</>
   );
 }
 
