@@ -42,8 +42,8 @@ export default function Projects() {
               desc: "Modern short link platform designed with analytics dashboard, QR code generation, password-protected URLs, custom aliases, expiry controls and fast secure redirection for better link management experience.",
               tech: ["React", "Node.js", "Express", "MongoDB"],
               image: UrlShortener,
-              github: "#",
-              live: "#",
+              github: "",
+              live: "www.url.appnests.in",
             },
 
             {
@@ -51,8 +51,8 @@ export default function Projects() {
               desc: "Premium responsive developer portfolio featuring smooth animations, project showcase cards, modern dark UI theme, contact integration and recruiter-focused clean personal branding experience.",
               tech: ["React", "Tailwind", "Vite"],
               image: portfolio,
-              github: "#",
-              live: "#",
+              github: "",
+              live: "wwww.chandankoranga.in",
             },
 
             {
