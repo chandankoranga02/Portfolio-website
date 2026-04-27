@@ -30,12 +30,12 @@ export default function Footer() {
         {[
           {
             name: "AppNest",
-            link: "#",
+            link: "www.appnests.in",
             icon: "https://img.icons8.com/fluency/96/domain.png",
           },
           {
             name: "Instagram",
-            link: "#",
+            link: "https://www.instagram.com/chandan.koranga02/",
             icon: "https://img.icons8.com/fluency/96/instagram-new.png",
           },
           {
@@ -45,22 +45,22 @@ export default function Footer() {
           },
           {
             name: "LinkedIn",
-            link: "#",
+            link: "https://www.linkedin.com/in/chandan-singh-koranga-919989364",
             icon: "https://img.icons8.com/color/96/linkedin.png",
           },
           {
             name: "HackerRank",
-            link: "#",
+            link: "https://www.hackerrank.com/profile/chandan_koranga2",
             icon: "https://img.icons8.com/color/96/hackerrank.png",
           },
           {
             name: "LeetCode",
-            link: "#",
+            link: "https://leetcode.com/u/Chandankoranga02/",
             icon: "https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png",
           },
           {
             name: "GitHub",
-            link: "#",
+            link: "https://github.com/chandankoranga02",
             icon: "https://img.icons8.com/ios-glyphs/90/ffffff/github.png",
           },
         ].map((item, index) => (

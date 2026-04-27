@@ -38,7 +38,7 @@ export default function Work() {
           desc: "Designed and developed a premium responsive portfolio website for a legal professional to establish strong online presence and credibility. Built modern UI sections including hero banner, services, achievements, testimonials and contact forms with mobile-first optimization, clean navigation, smooth user experience and performance-focused frontend architecture.",
           tech: ["React", "Tailwind CSS", "Vite", "Responsive Design", "Vercel", "Custom Domain", "EmailJS"],
           image: client,
-          live: "#",
+          live: "wwww.greysuit.in",
         },
       ].map((job, index) => (
         <div

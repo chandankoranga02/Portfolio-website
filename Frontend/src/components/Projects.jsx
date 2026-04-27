@@ -42,7 +42,7 @@ export default function Projects() {
               desc: "Modern short link platform designed with analytics dashboard, QR code generation, password-protected URLs, custom aliases, expiry controls and fast secure redirection for better link management experience.",
               tech: ["React", "Node.js", "Express", "MongoDB"],
               image: UrlShortener,
-              github: "",
+              github: "https://github.com/chandankoranga02/Advanced-URL-shortener",
               live: "www.url.appnests.in",
             },
 
@@ -51,7 +51,7 @@ export default function Projects() {
               desc: "Premium responsive developer portfolio featuring smooth animations, project showcase cards, modern dark UI theme, contact integration and recruiter-focused clean personal branding experience.",
               tech: ["React", "Tailwind", "Vite"],
               image: portfolio,
-              github: "",
+              github: "https://github.com/chandankoranga02/Portfolio-website",
               live: "wwww.chandankoranga.in",
             },
 
@@ -60,7 +60,7 @@ export default function Projects() {
               desc: "Advanced text utility application offering word count, character insights, uppercase/lowercase conversion, reading analysis and productivity tools for daily writing tasks.",
               tech: ["React", "Bootstrap", "JavaScript"],
               image: textAnalyzer,
-              github: "#",
+              github: "https://github.com/chandankoranga02/merikitab-app",
               live: "#",
             },
 
@@ -69,15 +69,15 @@ export default function Projects() {
               desc: "Responsive tourism website built to showcase Uttarakhand destinations, scenic places, travel highlights, culture and attractive landing page experience for visitors.",
               tech: ["HTML", "CSS", "JavaScript"],
               image: toursimUk,
-              github: "#",
-              live: "#",
+              github: "https://github.com/chandankoranga02/Frontend-project-Uttarakhand-Tourism-Website-",
+              live: "www.uktourism.appnests.in",
             },
             {
               name: "NewsApp SPA",
               desc: "Modern single page news application built with React featuring category-based headlines, top news sections, live API data fetching, responsive layout and smooth dark mode experience.",
               tech: ["React", "JavaScript", "API", "CSS"],
               image: newsapp,
-              github: "#",
+              github: "https://github.com/chandankoranga02/news-app",
               live: "#",
             },
 
@@ -86,7 +86,7 @@ export default function Projects() {
               desc: "Frontend clone of Amazon homepage focused on accurate layout recreation, navigation bar structure, product sections and responsive user interface design practice.",
               tech: ["HTML", "CSS"],
               image: amazonclone,
-              github: "#",
+              github: "https://github.com/chandankoranga02/Amazon-clone-first-project-html-css-only",
               live: "#",
             },
 
@@ -96,6 +96,7 @@ export default function Projects() {
               tech: ["HTML", "CSS", "JavaScript"],
               image: todo,
               live: "#",
+              github : "https://github.com/chandankoranga02/todo-app"
             },
           ].map((project, index) => (
             <div
