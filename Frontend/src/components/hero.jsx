@@ -2,6 +2,14 @@ import React from 'react'
 import profileImg from '../assets/PROFILE.png'
 
 export default function Hero() {
+
+  function resumehandler (){
+    window.open("https://drive.google.com/file/d/1V8JFdxGT5dXiZ7dWF1842kFrZKPZ5FMj/view?usp=drive_link", '_blank');
+   
+  }
+
+
+
   return (
     <>
 <div className="relative min-h-screen bg-gradient-to-br from-black via-gray-950 to-black text-white px-6 sm:px-10 lg:px-24 py-14 flex flex-col-reverse lg:flex-row items-center justify-center gap-12 lg:gap-24 overflow-hidden">
@@ -56,7 +64,7 @@ export default function Hero() {
                 View Projects
             </a>
 
-            <button
+            <button onClick={resumehandler}
                 className="px-8 py-3 rounded-full border border-white/10 bg-white/5 backdrop-blur-md hover:bg-white/10 hover:border-white/30 transition-all duration-300"
             >
                 Download Resume
