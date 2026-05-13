@@ -30,7 +30,7 @@ export default function Navbar() {
 
             <a className="hover:text-blue-400 transition-all duration-300" href="#">Certifications</a>
 
-            <a className="hover:text-green-300 transition-all duration-300" href="#">Appnests</a>
+            <a className="hover:text-green-300 transition-all duration-300" href="https://appnests.in">Appnests</a>
 
             <a
                 className="bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 px-4 lg:px-5 py-2 rounded-full font-semibold shadow-lg hover:scale-105 hover:shadow-blue-500/30 transition-all duration-300 border border-white/10"

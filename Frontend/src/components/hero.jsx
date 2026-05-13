@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../assets/PROFILE.png'
+import profileImg from '../assets/PROFILE.jpg'
 
 export default function Hero() {
 
@@ -75,25 +75,33 @@ export default function Hero() {
     </div>
 
     {/* Right Image */}
-    <div className="relative z-10 w-full lg:w-1/2 flex justify-center">
+<div className="relative z-10 w-full lg:w-1/2 flex justify-center">
 
-        <div className="relative w-72 h-[24rem] sm:w-80 sm:h-[28rem] lg:w-[24rem] lg:h-[34rem] rounded-[2rem] overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_20px_80px_rgba(59,130,246,0.25)] hover:scale-[1.02] transition-all duration-500">
+    <div className="relative 
+        w-[28rem] h-[32rem]
+        sm:w-[28rem] sm:h-[34rem]
+        lg:w-[32rem] lg:h-[40rem]
+        rounded-[2.5rem] overflow-hidden 
+        border border-white/10 
+        bg-white/5 backdrop-blur-xl
+        shadow-[0_20px_80px_rgba(59,130,246,0.25)]
+        hover:scale-[1.02] transition-all duration-500">
 
-            {/* Top Shine */}
-            <div className="absolute inset-0 bg-gradient-to-tr from-white/5 via-transparent to-blue-400/10 z-10"></div>
+        {/* Top Shine */}
+        <div className="absolute inset-0 bg-gradient-to-tr from-white/5 via-transparent to-blue-400/10 z-10"></div>
 
-            {/* Border Glow */}
-            <div className="absolute -inset-[1px] rounded-[2rem] border border-white/10"></div>
+        {/* Border Glow */}
+        <div className="absolute -inset-[1px] rounded-[2.5rem] border border-white/10"></div>
 
-            <img
-                src={profileImg}
-                alt="Chandan Koranga"
-                className="w-full h-full object-cover object-top"
-            />
-
-        </div>
+        <img
+            src={profileImg}
+            alt="Chandan Koranga"
+            className="w-full h-full object-cover object-top"
+        />
 
     </div>
+
+</div>
 
 </div>
 
