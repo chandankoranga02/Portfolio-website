@@ -122,9 +122,11 @@ export default function Contact() {
                 value={formData.fullname}
                 onChange={ChangeHandler}
                 className="w-full bg-white/[0.03] border border-white/10 rounded-xl px-4 py-3 outline-none focus:border-yellow-400"
+                required
               />
 
               <input
+              required
                 type="email"
                 name='email'
                 value={formData.email}
@@ -134,6 +136,7 @@ export default function Contact() {
               />
 
               <input
+              required
                 type="text"
                 name='subject'
                 placeholder="Subject"
@@ -143,6 +146,7 @@ export default function Contact() {
               />
 
               <textarea
+              required
                 rows="5"
                 name='message'
                 placeholder="Your Message"
