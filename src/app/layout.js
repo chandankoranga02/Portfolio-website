@@ -24,7 +24,7 @@ export const metadata = {
     "Node.js Developer",
     "Portfolio",
     "Web Developer India",
-    "Remote developer"
+    "Remote developer",
   ],
 
   authors: [{ name: "Chandan Koranga" }],
@@ -65,6 +65,21 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
+
+      <Script
+        src="https://www.googletagmanager.com/gtag/js?id=G-EH2EVDKMVM"
+        strategy="afterInteractive"
+      />
+
+      <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-EH2EVDKMVM');
+        `}
+      </Script>
     </html>
   );
 }
