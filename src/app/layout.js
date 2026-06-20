@@ -1,4 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
+import Script from "next/script";
+
 import "./globals.css";
 
 const geistSans = Geist({
@@ -12,19 +14,25 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Chandan Koranga | Full Stack Developer ",
+  metadataBase: new URL("https://chandankoranga.in"),
+
+  title: "Chandan Koranga | Full Stack Developer",
 
   description:
-    "Chandan Koranga is a Full Stack Developer skilled in React, Node.js, Express, MongoDB. Explore projects, skills and contact details.",
+    "Chandan Koranga is a Full Stack Developer skilled in React, Next.js, Node.js, Express, MongoDB, and TypeScript. Explore projects, skills, and contact details.",
 
   keywords: [
     "Chandan Koranga",
+    "Chandan Singh Koranga",
     "Full Stack Developer",
     "React Developer",
+    "Next.js Developer",
     "Node.js Developer",
+    "TypeScript Developer",
     "Portfolio",
     "Web Developer India",
-    "Remote developer",
+    "GBPIET",
+    "Remote Developer",
   ],
 
   authors: [{ name: "Chandan Koranga" }],
@@ -34,8 +42,12 @@ export const metadata = {
     follow: true,
   },
 
+  alternates: {
+    canonical: "/",
+  },
+
   openGraph: {
-    title: "Chandan Koranga Portfolio",
+    title: "Chandan Koranga | Full Stack Developer",
 
     description:
       "Explore projects, skills, and contact details of Chandan Koranga.",
@@ -46,7 +58,7 @@ export const metadata = {
 
     images: [
       {
-        url: "https://chandankoranga.in/profile.jpg",
+        url: "/profile.jpg",
         width: 1200,
         height: 630,
         alt: "Chandan Koranga Portfolio",
@@ -56,6 +68,17 @@ export const metadata = {
     locale: "en_IN",
     type: "website",
   },
+
+  twitter: {
+    card: "summary_large_image",
+
+    title: "Chandan Koranga | Full Stack Developer",
+
+    description:
+      "Explore projects, skills, and contact details of Chandan Koranga.",
+
+    images: ["/profile.jpg"],
+  },
 };
 
 export default function RootLayout({ children }) {
@@ -64,22 +87,24 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
 
-      <Script
-        src="https://www.googletagmanager.com/gtag/js?id=G-EH2EVDKMVM"
-        strategy="afterInteractive"
-      />
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=G-EH2EVDKMVM"
+          strategy="afterInteractive"
+        />
 
-      <Script id="google-analytics" strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        <Script id="google-analytics" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){window.dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'G-EH2EVDKMVM');
-        `}
-      </Script>
+            gtag('config', 'G-EH2EVDKMVM');
+          `}
+        </Script>
+      </body>
     </html>
   );
 }
