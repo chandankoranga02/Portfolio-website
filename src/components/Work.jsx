@@ -42,7 +42,7 @@ export default function Work() {
       ].map((job, index) => (
         <div
           key={index}
-          className="group min-h-[760px] max-w-[520px] mx-auto flex flex-col bg-white/[0.04] border border-white/10 rounded-[32px] overflow-hidden backdrop-blur-2xl hover:-translate-y-3 hover:border-yellow-400/70 hover:shadow-[0_0_45px_rgba(59,130,246,0.18)] transition-all duration-500"
+          className="group max-w-full sm:max-w-[520px] mx-auto flex flex-col bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-[32px] overflow-hidden backdrop-blur-2xl hover:-translate-y-3 hover:border-yellow-400/70 hover:shadow-[0_0_45px_rgba(59,130,246,0.18)] transition-all duration-500"
         >
           {/* Image */}
           <div className="overflow-hidden">
@@ -51,17 +51,17 @@ export default function Work() {
               alt={job.company}
                 width={512}
   height={640}
-              className="w-full h-80 object-cover group-hover:scale-110 transition duration-700"
+              className="w-full h-48 sm:h-60 md:h-80 object-cover group-hover:scale-110 transition duration-700"
             />
           </div>
 
           {/* Content */}
-          <div className="p-7 flex flex-col flex-1">
+          <div className="p-5 sm:p-6 md:p-7 flex flex-col flex-1">
             <span className="text-yellow-400 text-sm font-semibold mb-2 tracking-wide">
               {job.duration}
             </span>
 
-            <h3 className="text-3xl font-bold mb-2 group-hover:text-yellow-400 transition">
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold mb-2 group-hover:text-yellow-400 transition">
               {job.role}
             </h3>
 
@@ -69,7 +69,7 @@ export default function Work() {
               {job.company}
             </h4>
 
-            <p className="text-gray-300 text-sm leading-7 mb-6 min-h-[170px]">
+            <p className="text-gray-300 text-xs sm:text-sm leading-6 sm:leading-7 mb-4 sm:mb-6">
               {job.desc}
             </p>
 

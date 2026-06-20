@@ -88,8 +88,8 @@ export default function Contact() {
           <div className="grid lg:grid-cols-2 gap-10 max-w-6xl mx-auto relative z-10">
 
             {/* Left Card */}
-            <div className="bg-white/[0.04] border border-white/10 rounded-3xl p-8 backdrop-blur-2xl">
-              <h3 className="text-3xl font-bold mb-6">Let's Talk</h3>
+            <div className="bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-8 backdrop-blur-2xl">
+              <h3 className="text-2xl sm:text-3xl font-bold mb-4 sm:mb-6">Let's Talk</h3>
 
               <p className="text-gray-400 leading-7 mb-8">
                 Open for freelance work, internships and collaborations.
@@ -103,7 +103,7 @@ export default function Contact() {
                 </div>
 
                 <div className="bg-white/[0.03] border border-white/10 rounded-2xl p-4">
-                  <p className="text-yellow-400 text-sm mb-1">Alterntive Email</p>
+                  <p className="text-yellow-400 text-sm mb-1">Alternative Email</p>
                   <p className="text-gray-300"> contact@appnests.in</p>
                 </div>
 
@@ -115,7 +115,7 @@ export default function Contact() {
             </div>
 
             {/* Form */}
-            <form onSubmit={submithandler} className="bg-white/[0.04] border border-white/10 rounded-3xl p-8 backdrop-blur-2xl space-y-6">
+            <form onSubmit={submithandler} className="bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-5 sm:p-8 backdrop-blur-2xl space-y-5 sm:space-y-6">
 
               <input
                 type="text"

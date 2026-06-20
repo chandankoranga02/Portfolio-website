@@ -43,7 +43,7 @@ export default function Projects() {
               tech: ["Nextjs", "Tailwind", "Vite"],
               image: "/portfolio.png",
               github: "https://github.com/chandankoranga02/Portfolio-website",
-              live: "whttps://chandankoranga.in",
+              live: "https://chandankoranga.in",
             },
 
             {
@@ -94,7 +94,7 @@ export default function Projects() {
           ].map((project, index) => (
             <div
               key={index}
-              className="group min-h-[620px] flex flex-col bg-white/[0.04] border border-white/10 rounded-3xl overflow-hidden backdrop-blur-2xl hover:-translate-y-3 hover:border-yellow-400/70 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500"
+              className="group flex flex-col bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl overflow-hidden backdrop-blur-2xl hover:-translate-y-3 hover:border-yellow-400/70 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500"
             >
               {/* Image */}
               <div className="overflow-hidden">
@@ -103,17 +103,17 @@ export default function Projects() {
                   alt={project.name}
                   width={512}
                   height={640}
-                  className="w-full h-60 object-cover group-hover:scale-110 transition duration-700"
+                  className="w-full h-40 sm:h-48 md:h-60 object-cover group-hover:scale-110 transition duration-700"
                 />
               </div>
 
               {/* Content */}
-              <div className="p-6 flex flex-col flex-1">
-                <h3 className="text-2xl font-bold mb-3 group-hover:text-yellow-400 transition">
+              <div className="p-4 sm:p-5 md:p-6 flex flex-col flex-1">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold mb-2 sm:mb-3 group-hover:text-yellow-400 transition">
                   {project.name}
                 </h3>
 
-                <p className="text-gray-300 text-sm leading-7 mb-5 min-h-[110px]">
+                <p className="text-gray-300 text-xs sm:text-sm leading-6 sm:leading-7 mb-4 sm:mb-5">
                   {project.desc}
                 </p>
 

@@ -53,7 +53,7 @@ export default function Hero() {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
             <a
-              href="#Projects"
+              href="#projects"
               className="px-8 py-3 rounded-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600 font-semibold shadow-xl hover:scale-105 transition-all duration-300"
             >
               View Projects
@@ -71,7 +71,7 @@ export default function Hero() {
         {/* Right Image */}
         <div className="relative z-10 w-full lg:w-1/2 flex justify-center">
           <div
-            className="relative w-[28rem] h-[32rem] sm:w-[28rem] sm:h-[34rem] lg:w-[32rem] lg:h-[40rem] rounded-[2.5rem] overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_20px_80px_rgba(59,130,246,0.25)] hover:scale-[1.02] transition-all duration-500"
+            className="relative w-[16rem] h-[20rem] sm:w-[20rem] sm:h-[24rem] md:w-[24rem] md:h-[30rem] lg:w-[32rem] lg:h-[40rem] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden border border-white/10 bg-white/5 backdrop-blur-xl shadow-[0_20px_80px_rgba(59,130,246,0.25)] hover:scale-[1.02] transition-all duration-500"
           >
             {/* Top Shine */}
             <div className="absolute inset-0 bg-gradient-to-tr from-white/5 via-transparent to-blue-400/10 z-10"></div>

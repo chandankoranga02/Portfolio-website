@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Footer() {
   return (
     <div>
@@ -30,7 +28,7 @@ export default function Footer() {
         {[
           {
             name: "AppNest",
-            link: "www.appnests.in",
+            link: "https://www.appnests.in",
             icon: "https://img.icons8.com/fluency/96/domain.png",
           },
           {
@@ -96,7 +94,7 @@ export default function Footer() {
       </p>
 
       <p className="text-gray-500 text-sm">
-        Built with <span className="text-yellow-400">React + Tailwind</span>
+        Built with <span className="text-yellow-400">NextJs + Tailwind</span>
       </p>
 
     </div>

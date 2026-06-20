@@ -5,7 +5,7 @@ import Work from "../components/Work";
 import Skills from "../components/Skills";
 import Projects from "../components/Projects";
 import Education from "../components/Education";
-import Vission from "../components/Vission";
+import Vision from "../components/Vision";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 
@@ -20,7 +20,7 @@ export default function Home() {
         <Skills />
         <Projects />
         <Education />
-        <Vission />
+        <Vision />
         <Contact />
       </main>
 

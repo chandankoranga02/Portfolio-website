@@ -1,5 +1,3 @@
-import React from 'react'
-
 export default function Education() {
     return (
         <div>
@@ -34,7 +32,7 @@ export default function Education() {
                     {[
                         {
                             year: "2025 - Present",
-                            title: "Computer Science & Enginnering(Btech) ",
+                            title: "Computer Science & Engineering(Btech) ",
                             institute: "G. B. Pant Institute of Engineering & Technology , Pauri",
                             desc: "Currently pursuing B.Tech in Computer Science & Engineering with focus on full stack development, problem solving, software engineering and real-world project building.",
                         },
@@ -68,13 +66,13 @@ export default function Education() {
 
                             {/* Card */}
                             <div className="w-full md:w-[48%]">
-                                <div className="group bg-white/[0.04] border border-white/10 rounded-3xl p-6 backdrop-blur-2xl hover:-translate-y-2 hover:border-yellow-400/70 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
+                                <div className="group bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 backdrop-blur-2xl hover:-translate-y-2 hover:border-yellow-400/70 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
 
                                     <span className="text-yellow-400 text-sm font-semibold tracking-wide">
                                         {item.year}
                                     </span>
 
-                                    <h3 className="text-2xl font-bold mt-2 mb-2 group-hover:text-yellow-400 transition">
+                                    <h3 className="text-xl sm:text-2xl font-bold mt-2 mb-2 group-hover:text-yellow-400 transition">
                                         {item.title}
                                     </h3>
 

@@ -1,6 +1,3 @@
-import React from 'react'
-
-
 export default function Skills() {
     return (
 <div>
@@ -29,8 +26,8 @@ export default function Skills() {
     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-7 relative z-10">
 
       {/* Frontend */}
-      <div className="group relative bg-white/[0.04] border border-white/10 rounded-3xl p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
-        <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
+      <div className="group relative bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
+        <h3 className="text-xl sm:text-2xl font-semibold text-yellow-400 mb-4 sm:mb-6">
           Frontend
         </h3>
 
@@ -55,8 +52,8 @@ export default function Skills() {
       </div>
 
       {/* Backend */}
-      <div className="group relative bg-white/[0.04] border border-white/10 rounded-3xl p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
-        <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
+      <div className="group relative bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
+        <h3 className="text-xl sm:text-2xl font-semibold text-yellow-400 mb-4 sm:mb-6">
           Backend
         </h3>
 
@@ -79,8 +76,8 @@ export default function Skills() {
       </div>
 
       {/* Database */}
-      <div className="group relative bg-white/[0.04] border border-white/10 rounded-3xl p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
-        <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
+      <div className="group relative bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
+        <h3 className="text-xl sm:text-2xl font-semibold text-yellow-400 mb-4 sm:mb-6">
           Database
         </h3>
 
@@ -102,8 +99,8 @@ export default function Skills() {
       </div>
 
       {/* Tools */}
-      <div className="group relative bg-white/[0.04] border border-white/10 rounded-3xl p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
-        <h3 className="text-2xl font-semibold text-yellow-400 mb-6">
+      <div className="group relative bg-white/[0.04] border border-white/10 rounded-2xl sm:rounded-3xl p-4 sm:p-6 backdrop-blur-2xl hover:border-yellow-400/70 hover:-translate-y-3 hover:shadow-[0_0_35px_rgba(59,130,246,0.12)] transition-all duration-500">
+        <h3 className="text-xl sm:text-2xl font-semibold text-yellow-400 mb-4 sm:mb-6">
           Tools
         </h3>
 
