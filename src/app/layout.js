@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
-
+import SplashCursor from '../components/SplashCursor'
 import "./globals.css";
 
 const geistSans = Geist({
@@ -88,6 +88,18 @@ export default function RootLayout({ children }) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
+        <SplashCursor
+          DENSITY_DISSIPATION={3.5}
+          VELOCITY_DISSIPATION={4.5}
+          PRESSURE={0.25}
+          CURL={29}
+          SPLAT_RADIUS={0.18}
+          SPLAT_FORCE={14500}
+          COLOR_UPDATE_SPEED={10}
+          SHADING={false}
+          RAINBOW_MODE
+          COLOR="#A855F7"
+        />
         {children}
 
         <Script

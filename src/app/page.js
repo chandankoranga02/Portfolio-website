@@ -8,12 +8,20 @@ import Education from "../components/Education";
 import Vision from "../components/Vision";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+ 
 
 export default function Home() {
 
 
+
+
+
   return (
     <>
+
+
+
+
       <Navbar />
 
       <main>
