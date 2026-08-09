@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Hero() {
   function resumehandler() {
     window.open(
-      "https://drive.google.com/file/d/1V8JFdxGT5dXiZ7dWF1842kFrZKPZ5FMj/view?usp=drive_link",
+      "https://drive.google.com/file/d/18uy892z2Rlr_Dqg3o1yd7Hg7nt2IAgqz/view?usp=sharing",
       "_blank",
     );
   }
