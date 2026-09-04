@@ -39,6 +39,15 @@ export default function Work() {
           image: "/client.png",
           live: "https://www.greysuit.in",
         },
+        {
+          role: "Full stack developer ",
+          company: "Vower Energy",
+          duration: "2 months",
+          desc: "Designed and developed Authentication and foundation module , database models , 17 apis and 33 pages at startup vower energy a IoT based startup focussing on Connecting Ev Charing station and users , check vower for more info",
+          tech: ["React", "Tailwind CSS", "PostGreSql", "Express", "Vercel", "AWS", "Render" , "Resend"],
+          image: "/Vower.png",
+          live: "https://vower.in",
+        } ,
       ].map((job, index) => (
         <div
           key={index}
