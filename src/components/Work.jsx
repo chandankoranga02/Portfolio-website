@@ -44,10 +44,37 @@ export default function Work() {
           company: "Vower Energy",
           duration: "2 months",
           desc: "Designed and developed Authentication and foundation module , database models , 17 apis and 33 pages at startup vower energy a IoT based startup focussing on Connecting Ev Charing station and users , check vower for more info",
-          tech: ["React", "Tailwind CSS", "PostGreSql", "Express", "Vercel", "AWS", "Render" , "Resend"],
+          tech: ["React", "Tailwind CSS", "PostGreSql", "Express", "Vercel", "AWS", "Render" , "Resend", "Prisma ORM"],
           image: "/Vower.png",
           live: "https://vower.in",
-        } ,
+        },
+        {
+          role: "Full stack developer ",
+          company: "Dehradun Bakery Cleint Shop",
+          duration: "Freelance Project",
+          desc: "Designed and developed Premium Semi dynamic Contest type website with database storage as postgresql and admin page to checkout register users ",
+          tech: ["React", "Tailwind CSS", "MongoDb", "Express", "Vercel", "AWS", "Render"],
+          image: "/Bakery.png",
+          live: "https://bakery-contest.vercel.app/",
+        },
+         {
+          role: "Intern (Full stack web) ",
+          company: "IISPPR Org",
+          duration: "3 months",
+          desc: "Worked on the development and maintenance of IISPPR and Law Diplomacy Review websites, contributing to React development, automation, data integration, website updates, refactoring, and custom UI animations. Also took responsibility for task coordination, code review, and merging contributions while maintaining existing code structure. ",
+          tech: ["React", "Tailwind CSS"],
+          image: "/Internship_Certificate_IISPPR-74QCT3.png",
+          live: "iisppr.org.in/",
+        },
+         {
+          role: "Open source contributor ",
+          company: "Girl script summer of code",
+          duration: "NA",
+          desc: "Contributed to 4 open-source repositories and successfully merged 5 Pull Requests, collaborating with developers and contributors while improving features, fixing issues, and gaining hands-on experience with Git, GitHub, and collaborative software development. ",
+          tech: ["React", "Tailwind CSS","EmailJs" , "Google Ouath" , "Supabase"],
+          image: "/gssoc.png",
+          live: "https://gssoc.girlscript.org/profile/0b001435-b22d-4d07-9bd9-e99dc742b98e/",
+        }
       ].map((job, index) => (
         <div
           key={index}
